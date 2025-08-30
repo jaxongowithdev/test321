@@ -1,0 +1,16 @@
+{
+  "name": "@wedding/supabase-edge-functions",
+  "version": "1.0.0",
+  "description": "Supabase Edge Functions - Deno runtime only - NOT FOR NPM",
+  "private": true,
+  "type": "module",
+  "main": "functions/server/index.tsx",
+  "engines": {
+    "deno": ">=1.40.0"
+  },
+  "runtime": "deno",
+  "exclude": [
+    "**/*.ts",
+    "**/*.tsx"
+  ]
+}

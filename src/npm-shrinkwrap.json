@@ -1,0 +1,32 @@
+{
+  "name": "wedding-invitation", 
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "wedding-invitation",
+      "version": "1.0.0",
+      "private": true,
+      "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "motion": "^10.17.0",
+        "lucide-react": "^0.263.1", 
+        "sonner": "^1.3.1",
+        "recharts": "^2.8.0",
+        "react-responsive-masonry": "^2.1.7"
+      },
+      "devDependencies": {
+        "@types/react": "^18.2.0",
+        "@types/react-dom": "^18.2.0", 
+        "vite": "^4.4.0",
+        "typescript": "^5.0.0"
+      },
+      "engines": {
+        "node": ">=16.0.0",
+        "npm": ">=7.0.0"
+      }
+    }
+  }
+}
