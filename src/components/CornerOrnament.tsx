@@ -26,12 +26,12 @@ export const CornerOrnament = ({ position, delay = 0 }: CornerOrnamentProps) => 
       className={`absolute ${getPositionClasses()} w-8 h-8 md:w-10 md:h-10 opacity-80 pointer-events-none`}
       initial={{ opacity: 0, scale: 0.3, rotate: -20 }}
       whileInView={{ opacity: 0.8, scale: 1, rotate: 0 }}
-      transition={{ 
-        duration: 1, 
+      transition={{
+        duration: 1,
         delay: delay,
-        type: "spring",
+        type: "tween",
         stiffness: 120,
-        damping: 20 
+        damping: 20
       }}
       viewport={{ once: true }}
       whileHover={{ 
