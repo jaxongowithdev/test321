@@ -103,9 +103,9 @@ export function CountdownTimer({ targetDate, className = "" }: CountdownTimerPro
             initial={{ opacity: 0, scale: 0.8, y: 50 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             transition={{ 
-              duration: 0.8, 
+              duration: 0.8,
               delay: 0.7 + (index * 0.15),
-              type: "spring",
+              type: "tween",
               stiffness: 120,
               damping: 10
             }}
@@ -133,7 +133,7 @@ export function CountdownTimer({ targetDate, className = "" }: CountdownTimerPro
                     scale: unit.label === 'Giây' && unit.value !== prevSeconds ? [1, 1.2, 1] : 1
                   }}
                   exit={{ y: unit.label === 'Giây' ? 30 : -20, opacity: 0, scale: 0.8 }}
-                  transition={{ duration: 0.5, type: "spring", stiffness: 200 }}
+                  transition={{ duration: 0.5, type: "tween" }}
                 >
                   {unit.value.toString().padStart(2, '0')}
                 </motion.span>
