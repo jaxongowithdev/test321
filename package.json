@@ -37,13 +37,9 @@
           "embla-carousel-react": "^8.6.0",
           "framer-motion": "*",
           "input-otp": "^1.4.2",
-          "jsr:": "^supabase",
           "lucide-react": "^0.487.0",
           "motion": "*",
           "next-themes": "*",
-          "npm:": "^supabase",
-          "npm:hono": "*",
-          "path": "*",
           "react": "^18.3.1",
           "react-day-picker": "^8.10.1",
           "react-dom": "^18.3.1",
@@ -53,8 +49,7 @@
           "recharts": "^2.15.2",
           "sonner": "*",
           "tailwind-merge": "*",
-          "vaul": "^1.1.2",
-          "vite": "*"
+          "vaul": "^1.1.2"
       },
       "devDependencies": {
           "@types/node": "^20.10.0",
