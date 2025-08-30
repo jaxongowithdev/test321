@@ -26,7 +26,7 @@ export const CenterDragonPhoenix = ({ delay = 0 }: CenterDragonPhoenixProps) => 
       transition={{ 
         duration: 1.2, 
         delay: delay,
-        type: "spring",
+        type: "tween",
         stiffness: 100,
         damping: 15 
       }}
